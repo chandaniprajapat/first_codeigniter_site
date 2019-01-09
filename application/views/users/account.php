@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="container">
-
+	<?php echo 'kkkkkkkkk'.$this->session->userdata['userId'];?>
     <h2>User Account</h2>
     <h3>Welcome <?php echo $user['name']; ?>!</h3>
     <div class="account-info">
