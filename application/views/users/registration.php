@@ -5,7 +5,7 @@
 </head>
 <body>
 <div class="container">
-    <h2>User Registration</h2>
+    <h2>User Registration123</h2>
     <form action="" method="post">
         <div class="form-group">
             <input type="text" class="form-control" name="name" placeholder="Name" required="" value="<?php echo !empty($user['name'])?$user['name']:''; ?>">
